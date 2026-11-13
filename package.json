@@ -1,0 +1,17 @@
+{
+  "name": "youtube-link-parser",
+  "version": "1.0.0",
+  "description": "Turn any YouTube link (watch, youtu.be, Shorts, live, embed, music) into a clean video ID, with start time and clear errors.",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": { ".": { "types": "./index.d.ts", "default": "./index.js" } },
+  "files": ["index.js", "index.d.ts"],
+  "scripts": { "test": "node --test" },
+  "keywords": ["youtube", "youtube-url", "video-id", "youtu.be", "shorts", "parser", "url"],
+  "homepage": "https://github.com/yt-video-downloader/youtube-link-parser#readme",
+  "repository": { "type": "git", "url": "git+https://github.com/yt-video-downloader/youtube-link-parser.git" },
+  "bugs": { "url": "https://github.com/yt-video-downloader/youtube-link-parser/issues" },
+  "license": "MIT",
+  "engines": { "node": ">=16" }
+}
